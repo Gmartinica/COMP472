@@ -1,0 +1,63 @@
+
+	**********************************
+
+	MultinomialNB default values, try 1
+
+
+
+Words with a frequency of zero in each class (part7i)
+Num of Total unique words 29421
+ num of Z in business: 17538 ,Percentage: 59.61048230855511
+ num of Z in entertainment: 17746 ,Percentage: 60.317460317460316
+ num of Z in politics: 18201 ,Percentage: 61.86397471194045
+ num of Z in sport: 18850 ,Percentage: 64.06988205703409
+ num of Z in tech: 17323 ,Percentage: 58.87971177050406
+
+Words with a frequency of one in the entire corpus (part7j)
+number of words with a frequency of one in the entire corpus: 10005
+Percentage: 34.006322014887324
+
+
+
+	**********************************
+
+	MultinomialNB default values, try 2
+
+
+
+Confusion Metrix: 
+array([[ 83,   1,   0,   0,   3],
+       [  1,  85,   2,   0,   2],
+       [  1,   0,  82,   0,   0],
+       [  0,   0,   0, 114,   0],
+       [  0,   1,   0,   0,  70]], dtype=int64)
+
+
+
+	**********************************
+
+	MultinomialNB with smoothing value of 0.0001
+
+
+
+Confusion Metrix: 
+array([[ 82,   2,   0,   0,   3],
+       [  0,  84,   3,   0,   3],
+       [  1,   0,  82,   0,   0],
+       [  1,   0,   0, 113,   0],
+       [  0,   1,   0,   0,  70]], dtype=int64)
+
+
+
+	**********************************
+
+	MultinomialNB with smoothing value of 0.9
+
+
+
+Confusion Metrix: 
+array([[ 83,   1,   0,   0,   3],
+       [  1,  85,   2,   0,   2],
+       [  1,   0,  82,   0,   0],
+       [  0,   0,   0, 114,   0],
+       [  0,   1,   0,   0,  70]], dtype=int64)
