@@ -5,17 +5,26 @@
 
 
 
+
+Prior probabilities:
+Total num of doc in training set: 1780.0
+num of business doc: 401.0 ,Percentage: 22.528089887640448
+num of entertainment doc: 316.0 ,Percentage: 17.752808988764045
+num of politics doc: 323.0 ,Percentage: 18.14606741573034
+num of sport doc: 413.0 ,Percentage: 23.202247191011235
+num of tech doc: 327.0 ,Percentage: 18.370786516853933
+
 Words with a frequency of zero in each class (part7i)
-Num of Total unique words 29421
- num of Z in business: 17538 ,Percentage: 59.61048230855511
- num of Z in entertainment: 17746 ,Percentage: 60.317460317460316
- num of Z in politics: 18201 ,Percentage: 61.86397471194045
- num of Z in sport: 18850 ,Percentage: 64.06988205703409
- num of Z in tech: 17323 ,Percentage: 58.87971177050406
+Num of Total unique words in test set 29421
+ num of Z in business: 18762 ,Percentage: 63.77077597634343
+ num of Z in entertainment: 18909 ,Percentage: 64.27041908840624
+ num of Z in politics: 19362 ,Percentage: 65.81013561741614
+ num of Z in sport: 19727 ,Percentage: 67.05074606573535
+ num of Z in tech: 18253 ,Percentage: 62.04071921416675
 
 Words with a frequency of one in the entire corpus (part7j)
-number of words with a frequency of one in the entire corpus: 10005
-Percentage: 34.006322014887324
+number of words with a frequency of one in the entire corpus: 9612
+Percentage: 32.670541449984704
 
 
 
@@ -25,39 +34,11 @@ Percentage: 34.006322014887324
 
 
 
-Confusion Metrix: 
-array([[ 83,   1,   0,   0,   3],
-       [  1,  85,   2,   0,   2],
-       [  1,   0,  82,   0,   0],
-       [  0,   0,   0, 114,   0],
-       [  0,   1,   0,   0,  70]], dtype=int64)
 
-
-
-	**********************************
-
-	MultinomialNB with smoothing value of 0.0001
-
-
-
-Confusion Metrix: 
-array([[ 82,   2,   0,   0,   3],
-       [  0,  84,   3,   0,   3],
-       [  1,   0,  82,   0,   0],
-       [  1,   0,   0, 113,   0],
-       [  0,   1,   0,   0,  70]], dtype=int64)
-
-
-
-	**********************************
-
-	MultinomialNB with smoothing value of 0.9
-
-
-
-Confusion Metrix: 
-array([[ 83,   1,   0,   0,   3],
-       [  1,  85,   2,   0,   2],
-       [  1,   0,  82,   0,   0],
-       [  0,   0,   0, 114,   0],
-       [  0,   1,   0,   0,  70]], dtype=int64)
+Prior probabilities (part7e):
+Total num of doc in training set: 1780.0
+num of business doc: 401.0 ,Percentage: 22.528089887640448
+num of entertainment doc: 316.0 ,Percentage: 17.752808988764045
+num of politics doc: 323.0 ,Percentage: 18.14606741573034
+num of sport doc: 413.0 ,Percentage: 23.202247191011235
+num of tech doc: 327.0 ,Percentage: 18.370786516853933
