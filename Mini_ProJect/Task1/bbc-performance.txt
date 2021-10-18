@@ -6,25 +6,25 @@
 
 
 
-Prior probabilities:
+Prior probabilities (part7e):
 Total num of doc in training set: 1780.0
-num of business doc: 401.0 ,Percentage: 22.528089887640448
-num of entertainment doc: 316.0 ,Percentage: 17.752808988764045
-num of politics doc: 323.0 ,Percentage: 18.14606741573034
-num of sport doc: 413.0 ,Percentage: 23.202247191011235
-num of tech doc: 327.0 ,Percentage: 18.370786516853933
+num of business doc: 417.0 ,Percentage: 23.426966292134832
+num of entertainment doc: 307.0 ,Percentage: 17.247191011235955
+num of politics doc: 332.0 ,Percentage: 18.651685393258425
+num of sport doc: 408.0 ,Percentage: 22.92134831460674
+num of tech doc: 316.0 ,Percentage: 17.752808988764045
 
 Words with a frequency of zero in each class (part7i)
 Num of Total unique words in training set 29421
- num of Z in business: 18762 ,Percentage: 63.77077597634343
- num of Z in entertainment: 18909 ,Percentage: 64.27041908840624
- num of Z in politics: 19362 ,Percentage: 65.81013561741614
- num of Z in sport: 19727 ,Percentage: 67.05074606573535
- num of Z in tech: 18253 ,Percentage: 62.04071921416675
+ num of Z in business: 18661 ,Percentage: 63.427483770096195
+ num of Z in entertainment: 19343 ,Percentage: 65.74555589544883
+ num of Z in politics: 19333 ,Percentage: 65.71156656809761
+ num of Z in sport: 19757 ,Percentage: 67.152714047789
+ num of Z in tech: 18462 ,Percentage: 62.751096155807076
 
 Words with a frequency of one in the entire corpus (part7j)
-number of words with a frequency of one in the entire corpus: 9612
-Percentage: 32.670541449984704
+number of words with a frequency of one in the entire corpus: 9463
+Percentage: 32.16410047245165
 
 
 
@@ -34,11 +34,311 @@ Percentage: 32.670541449984704
 
 
 
+Confusion Matrix: 
+array([[ 88,   0,   3,   0,   2],
+       [  1,  73,   0,   0,   5],
+       [  1,   1,  83,   0,   0],
+       [  1,   0,   1, 101,   0],
+       [  0,   0,   1,   0,  84]], dtype=int64)
 
-Prior probabilities (part7e):
-Total num of doc in training set: 1780.0
-num of business doc: 401.0 ,Percentage: 22.528089887640448
-num of entertainment doc: 316.0 ,Percentage: 17.752808988764045
-num of politics doc: 323.0 ,Percentage: 18.14606741573034
-num of sport doc: 413.0 ,Percentage: 23.202247191011235
-num of tech doc: 327.0 ,Percentage: 18.370786516853933
+
+               precision    recall  f1-score   support
+
+     business       0.97      0.95      0.96        93
+entertainment       0.99      0.92      0.95        79
+     politics       0.94      0.98      0.96        85
+        sport       1.00      0.98      0.99       103
+         tech       0.92      0.99      0.95        85
+
+     accuracy                           0.96       445
+    macro avg       0.96      0.96      0.96       445
+ weighted avg       0.97      0.96      0.96       445
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.9640449438202248
+Macro F1 average: 0.9630098420749338
+Weighted F1 average: 0.9641110022709588
+
+
+Prior probability of each class:
+Business: 510/2225: ========> 0.2292134831460674
+Entertainment: 386/2225: ===> 0.17348314606741572
+Politics: 417/2225: ========> 0.18741573033707865
+Sport: 511/2225: ===========> 0.22966292134831462
+Tech: 401/2225: ============> 0.1802247191011236
+
+
+Size of the vocabulary:
+29421
+
+Number of word-tokens in each class:
+5064909
+
+number of word-tokens in the entire corpus:
+29421
+
+Words with a frequency of zero in each class:
+  (0, 26175)	4
+  (0, 16358)	3
+  (0, 4394)	2
+  (0, 3333)	1
+  (0, 26806)	2
+  (0, 3210)	2
+  (0, 5741)	2
+  (0, 10130)	2
+  (0, 12684)	2
+  (0, 3706)	2
+  (0, 18041)	1
+  (0, 9975)	1
+  (0, 4936)	1
+  (0, 18726)	9
+  (0, 26462)	12
+  (0, 29256)	3
+  (0, 4980)	3
+  (0, 15662)	1
+  (0, 4934)	1
+  (0, 16451)	1
+  (0, 13517)	1
+  (0, 10626)	3
+  (0, 28521)	2
+  (0, 3211)	1
+  (0, 26718)	1
+  :	:
+  (2224, 23397)	1
+  (2224, 8939)	1
+  (2224, 8948)	1
+  (2224, 17541)	1
+  (2224, 6822)	1
+  (2224, 17506)	1
+  (2224, 15268)	1
+  (2224, 27140)	1
+  (2224, 10867)	2
+  (2224, 7645)	1
+  (2224, 10376)	1
+  (2224, 12535)	1
+  (2224, 24393)	1
+  (2224, 28169)	1
+  (2224, 12479)	2
+  (2224, 16345)	2
+  (2224, 10909)	1
+  (2224, 16939)	2
+  (2224, 17947)	1
+  (2224, 18169)	1
+  (2224, 26669)	1
+  (2224, 21459)	1
+  (2224, 15937)	1
+  (2224, 24656)	1
+  (2224, 5650)	3
+
+
+
+
+	**********************************
+
+	MultinomialNB with smoothing value of 0.0001
+
+
+
+Confusion Matrix: 
+array([[ 85,   0,   4,   0,   4],
+       [  0,  76,   1,   0,   2],
+       [  1,   2,  82,   0,   0],
+       [  1,   0,   1, 101,   0],
+       [  0,   0,   1,   0,  84]], dtype=int64)
+
+
+               precision    recall  f1-score   support
+
+     business       0.98      0.91      0.94        93
+entertainment       0.97      0.96      0.97        79
+     politics       0.92      0.96      0.94        85
+        sport       1.00      0.98      0.99       103
+         tech       0.93      0.99      0.96        85
+
+     accuracy                           0.96       445
+    macro avg       0.96      0.96      0.96       445
+ weighted avg       0.96      0.96      0.96       445
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.9617977528089887
+Macro F1 average: 0.9610644249500078
+Weighted F1 average: 0.9618484233115087
+
+
+Prior probability of each class:
+Business: 510/2225: ========> 0.2292134831460674
+Entertainment: 386/2225: ===> 0.17348314606741572
+Politics: 417/2225: ========> 0.18741573033707865
+Sport: 511/2225: ===========> 0.22966292134831462
+Tech: 401/2225: ============> 0.1802247191011236
+
+
+Size of the vocabulary:
+29421
+
+Number of word-tokens in each class:
+5064909
+
+number of word-tokens in the entire corpus:
+29421
+
+Words with a frequency of zero in each class:
+  (0, 26175)	4
+  (0, 16358)	3
+  (0, 4394)	2
+  (0, 3333)	1
+  (0, 26806)	2
+  (0, 3210)	2
+  (0, 5741)	2
+  (0, 10130)	2
+  (0, 12684)	2
+  (0, 3706)	2
+  (0, 18041)	1
+  (0, 9975)	1
+  (0, 4936)	1
+  (0, 18726)	9
+  (0, 26462)	12
+  (0, 29256)	3
+  (0, 4980)	3
+  (0, 15662)	1
+  (0, 4934)	1
+  (0, 16451)	1
+  (0, 13517)	1
+  (0, 10626)	3
+  (0, 28521)	2
+  (0, 3211)	1
+  (0, 26718)	1
+  :	:
+  (2224, 23397)	1
+  (2224, 8939)	1
+  (2224, 8948)	1
+  (2224, 17541)	1
+  (2224, 6822)	1
+  (2224, 17506)	1
+  (2224, 15268)	1
+  (2224, 27140)	1
+  (2224, 10867)	2
+  (2224, 7645)	1
+  (2224, 10376)	1
+  (2224, 12535)	1
+  (2224, 24393)	1
+  (2224, 28169)	1
+  (2224, 12479)	2
+  (2224, 16345)	2
+  (2224, 10909)	1
+  (2224, 16939)	2
+  (2224, 17947)	1
+  (2224, 18169)	1
+  (2224, 26669)	1
+  (2224, 21459)	1
+  (2224, 15937)	1
+  (2224, 24656)	1
+  (2224, 5650)	3
+
+
+
+
+	**********************************
+
+	MultinomialNB with smoothing value of 0.9
+
+
+
+Confusion Matrix: 
+array([[ 88,   0,   3,   0,   2],
+       [  1,  75,   0,   0,   3],
+       [  1,   1,  83,   0,   0],
+       [  1,   0,   1, 101,   0],
+       [  0,   0,   1,   0,  84]], dtype=int64)
+
+
+               precision    recall  f1-score   support
+
+     business       0.97      0.95      0.96        93
+entertainment       0.99      0.95      0.97        79
+     politics       0.94      0.98      0.96        85
+        sport       1.00      0.98      0.99       103
+         tech       0.94      0.99      0.97        85
+
+     accuracy                           0.97       445
+    macro avg       0.97      0.97      0.97       445
+ weighted avg       0.97      0.97      0.97       445
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.9685393258426966
+Macro F1 average: 0.9679029133358649
+Weighted F1 average: 0.9686022244486461
+
+
+Prior probability of each class:
+Business: 510/2225: ========> 0.2292134831460674
+Entertainment: 386/2225: ===> 0.17348314606741572
+Politics: 417/2225: ========> 0.18741573033707865
+Sport: 511/2225: ===========> 0.22966292134831462
+Tech: 401/2225: ============> 0.1802247191011236
+
+
+Size of the vocabulary:
+29421
+
+Number of word-tokens in each class:
+5064909
+
+number of word-tokens in the entire corpus:
+29421
+
+Words with a frequency of zero in each class:
+  (0, 26175)	4
+  (0, 16358)	3
+  (0, 4394)	2
+  (0, 3333)	1
+  (0, 26806)	2
+  (0, 3210)	2
+  (0, 5741)	2
+  (0, 10130)	2
+  (0, 12684)	2
+  (0, 3706)	2
+  (0, 18041)	1
+  (0, 9975)	1
+  (0, 4936)	1
+  (0, 18726)	9
+  (0, 26462)	12
+  (0, 29256)	3
+  (0, 4980)	3
+  (0, 15662)	1
+  (0, 4934)	1
+  (0, 16451)	1
+  (0, 13517)	1
+  (0, 10626)	3
+  (0, 28521)	2
+  (0, 3211)	1
+  (0, 26718)	1
+  :	:
+  (2224, 23397)	1
+  (2224, 8939)	1
+  (2224, 8948)	1
+  (2224, 17541)	1
+  (2224, 6822)	1
+  (2224, 17506)	1
+  (2224, 15268)	1
+  (2224, 27140)	1
+  (2224, 10867)	2
+  (2224, 7645)	1
+  (2224, 10376)	1
+  (2224, 12535)	1
+  (2224, 24393)	1
+  (2224, 28169)	1
+  (2224, 12479)	2
+  (2224, 16345)	2
+  (2224, 10909)	1
+  (2224, 16939)	2
+  (2224, 17947)	1
+  (2224, 18169)	1
+  (2224, 26669)	1
+  (2224, 21459)	1
+  (2224, 15937)	1
+  (2224, 24656)	1
+  (2224, 5650)	3
