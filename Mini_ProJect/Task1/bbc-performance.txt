@@ -15,7 +15,7 @@ num of sport doc: 413.0 ,Percentage: 23.202247191011235
 num of tech doc: 327.0 ,Percentage: 18.370786516853933
 
 Words with a frequency of zero in each class (part7i)
-Num of Total unique words in test set 29421
+Num of Total unique words in training set 29421
  num of Z in business: 18762 ,Percentage: 63.77077597634343
  num of Z in entertainment: 18909 ,Percentage: 64.27041908840624
  num of Z in politics: 19362 ,Percentage: 65.81013561741614
