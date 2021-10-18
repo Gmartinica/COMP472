@@ -1,0 +1,48 @@
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.92
+Macro F1 average: 0.7059435028248587
+Weighted F1 average: 0.8904361581920903
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.86
+Macro F1 average: 0.8640350877192983
+Weighted F1 average: 0.8668245614035088
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.86
+Macro F1 average: 0.5365253077975376
+Weighted F1 average: 0.8078796169630644
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.86
+Macro F1 average: 0.5365253077975376
+Weighted F1 average: 0.8078796169630644
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.86
+Macro F1 average: 0.5365253077975376
+Weighted F1 average: 0.8078796169630644
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.62
+Macro F1 average: 0.27908496732026145
+Weighted F1 average: 0.5249673202614379
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.52
+Macro F1 average: 0.21666666666666665
+Weighted F1 average: 0.41333333333333333
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.86
+Macro F1 average: 0.6958333333333334
+Weighted F1 average: 0.8306666666666667
+

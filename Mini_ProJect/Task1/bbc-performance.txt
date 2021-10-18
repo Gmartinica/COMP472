@@ -342,3 +342,17 @@ Words with a frequency of zero in each class:
   (2224, 15937)	1
   (2224, 24656)	1
   (2224, 5650)	3
+
+
+Prior probabilities Try 2: 
+
+Confusion Matrix: 
+
+
+
+
+	**********************************
+
+	MultinomialNB with smoothing value of 0.0001
+
+

@@ -1,42 +1,18 @@
 
+Running 10 - Gaussian Naive Bayes Classifier:
+Average accuracy:0.8600000000000001
+Average macro-average F1:0.6958333333333335
+Average  weighted-average F1:0.8306666666666667
 
 
-
-	**********************************
-
-	Gaussian Naive Bayes Classifier
-
-
-
-Confusion Matrix: 
-
-The precision, recall, and F1-measure
+Running 10 - Gaussian Naive Bayes Classifier:
+Average accuracy:0.8600000000000001
+Average macro-average F1:0.8640350877192982
+Average weighted-average F1:0.8668245614035088
 
 
-
-
-	**********************************
-
-	Gaussian Naive Bayes Classifier
-
-
-
-Confusion Matrix: 
-
-
-
-
-	**********************************
-
-	Top-Multi-Layered Perceptron
-
-
-
-
-
-
-	**********************************
-
-	Top-Multi-Layered Perceptron
-
+Running 10 - Gaussian Naive Bayes Classifier:
+Average accuracy:0.8600000000000001
+Average macro-average F1:0.8640350877192982
+Average weighted-average F1:0.8668245614035088
 
