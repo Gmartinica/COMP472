@@ -16,3 +16,161 @@ Average accuracy:0.8600000000000001
 Average macro-average F1:0.8640350877192982
 Average weighted-average F1:0.8668245614035088
 
+
+Running 10 - Perceptron:
+
+Running 10 - Perceptron:
+
+Running 10 - Perceptron:
+
+Running 10 - Perceptron:
+Average accuracy:0.8600000000000001
+Average macro-average F1:0.2790849673202614
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+Average accuracy:0.8600000000000001
+Average macro-average F1:0.2790849673202614
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+
+Running 10 - Perceptron:
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+Accuracy Standard Deviation: 0.0
+Macro-average Standard Deviation: 0.0
+Weighted-average Standard Deviation: 0.0
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+Accuracy Standard Deviation: 0.0
+Macro-average Standard Deviation: 0.0
+Weighted-average Standard Deviation: 0.0
+
+
+Running 10 - Perceptron:
+Average accuracy:0.62
+Average macro-average F1:0.27908496732026145
+Average weighted-average F1:0.5249673202614379
+Accuracy Standard Deviation: 0.0
+Macro-average Standard Deviation: 0.0
+Weighted-average Standard Deviation: 0.0
+
+
+Running 10 - Multi-Layered Perceptron:
+Average accuracy: 0.5199999999999999
+Average macro-average F1: 0.21539828336655414
+Average weighted-average F1: 0.4124902412236097
+Accuracy Standard Deviation: 0.0
+Macro-average Standard Deviation: 0.000270651759223617
+Weighted-average Standard Deviation: 8.186443895907657e-05
+
+
+Running 10 - Multi-Layered Perceptron:
+Average accuracy: 0.8520000000000001
+Average macro-average F1: 0.7344077699771993
+Average weighted-average F1: 0.8266683311429703
+Accuracy Standard Deviation: 0.04131182235954578
+Macro-average Standard Deviation: 0.0839648671083071
+Weighted-average Standard Deviation: 0.04816342569906953
+
+
+Running 10 - Gaussian Naive Bayes Classifier:
+Average accuracy: 0.86
+Average macro-average F1: 0.8640350877192983
+Average weighted-average F1: 0.8668245614035088
+Accuracy Standard Deviation: 0.0
+Macro-average Standard Deviation: 0.0
+Weighted-average Standard Deviation: 0.0
+
+
+Running 10 - Decision Tree:
+Average accuracy: 0.86
+Average macro-average F1: 0.5365253077975376
+Average weighted-average F1: 0.8078796169630644
+Accuracy Standard Deviation: 0.0
+Macro-average Standard Deviation: 0.0
+Weighted-average Standard Deviation: 0.0
+
+
+Running 10 - Decision Tree:
+Average accuracy: 0.86
+Average macro-average F1: 0.5365253077975376
+Average weighted-average F1: 0.8078796169630644
+Accuracy Standard Deviation: 0.0
+Macro-average Standard Deviation: 0.0
+Weighted-average Standard Deviation: 0.0
+
