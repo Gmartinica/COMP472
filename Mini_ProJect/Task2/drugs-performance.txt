@@ -1,0 +1,42 @@
+
+
+
+
+	**********************************
+
+	Gaussian Naive Bayes Classifier
+
+
+
+Confusion Matrix: 
+
+The precision, recall, and F1-measure
+
+
+
+
+	**********************************
+
+	Gaussian Naive Bayes Classifier
+
+
+
+Confusion Matrix: 
+
+
+
+
+	**********************************
+
+	Top-Multi-Layered Perceptron
+
+
+
+
+
+
+	**********************************
+
+	Top-Multi-Layered Perceptron
+
+
