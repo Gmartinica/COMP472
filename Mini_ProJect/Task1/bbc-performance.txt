@@ -1,30 +1,109 @@
 
 	**********************************
 
-	MultinomialNB default values, try 1
+	a)MultinomialNB default values, try 1
 
 
+
+	***
+
+b)Confusion matrix 
+
+
+array([[90,  0,  2,  0,  1],
+       [ 1, 72,  2,  0,  2],
+       [ 1,  1, 82,  0,  0],
+       [ 0,  0,  0, 98,  0],
+       [ 0,  0,  0,  0, 93]], dtype=int64)
+	***
+
+c)Precision, recall, and F1-measure for each class 
+
+
+               precision    recall  f1-score   support
+
+     business       0.98      0.97      0.97        93
+entertainment       0.99      0.94      0.96        77
+     politics       0.95      0.98      0.96        84
+        sport       1.00      1.00      1.00        98
+         tech       0.97      1.00      0.98        93
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+	***
+
+ d) 
+Accuracy score:
+0.9775280898876404
+Macro F1 average:
+0.9763611678905797
+Weighted F1 average:
+0.9774507643324564
+	***
 
 
 Prior probabilities (part7e):
 Total num of doc in training set: 1780.0
-num of business doc: 397.0 ,Percentage: 22.303370786516854
-num of entertainment doc: 307.0 ,Percentage: 17.247191011235955
-num of politics doc: 338.0 ,Percentage: 18.98876404494382
-num of sport doc: 407.0 ,Percentage: 22.865168539325843
-num of tech doc: 331.0 ,Percentage: 18.59550561797753
+num of business doc: 417.0 ,Percentage: 23.426966292134832
+num of entertainment doc: 309.0 ,Percentage: 17.359550561797754
+num of politics doc: 333.0 ,Percentage: 18.707865168539325
+num of sport doc: 413.0 ,Percentage: 23.202247191011235
+num of tech doc: 308.0 ,Percentage: 17.303370786516854
+	***
 
-Words with a frequency of zero in each class (part7i)
+
+f)Size of vocabulary
+29421
+	***
+
+
+g)Number of word-tokens in each class 
+
+ num of word token in business: 134897.0
+ num of word token in entertainment: 98352.0
+ num of word token in politics: 144559.0
+ num of word token in sport: 133087.0
+ num of word token in tech: 152889.0
+	***
+
+
+h)Number of word-tokens in the entire corpus 
+
+Total num of word token : 663784.0
+	***
+
+
+i)Words with a frequency of zero in each class (part7i)
 Num of Total unique words in training set 29421
- num of Z in business: 18824 ,Percentage: 63.98150980592094
- num of Z in entertainment: 19111 ,Percentage: 64.95700350090071
- num of Z in politics: 19146 ,Percentage: 65.07596614662997
- num of Z in sport: 19911 ,Percentage: 67.67614968899765
- num of Z in tech: 18111 ,Percentage: 61.55807076577955
+ num of Z in business: 18578 ,Percentage: 63.14537235308113
+ num of Z in entertainment: 19041 ,Percentage: 64.71907820944224
+ num of Z in politics: 19313 ,Percentage: 65.6435879133952
+ num of Z in sport: 19799 ,Percentage: 67.29546922266408
+ num of Z in tech: 18566 ,Percentage: 63.104585160259674
+	***
+
 
 Words with a frequency of one in the entire corpus (part7j)
-number of words with a frequency of one in the entire corpus: 9433
-Percentage: 32.062132490398014
+number of words with a frequency of one in the entire corpus: 9547
+Percentage: 32.44961082220183
+	***
+k) Your 2 favorite words (that are present in the vocabulary) and their log-prob
+Log probability of company in each class in the following order: business, entertainment, politics, sports, tech 
+-6.168917196341985
+-7.750677345767323
+-9.35864542795932
+-9.600587237510995
+-7.253651409435839
+
+Log probability of intelligence in each class in the following order: business, entertainment, politics, sports, tech 
+-11.316411673155438
+-10.659398242331685
+-8.931201413132381
+-11.998482510309366
+-10.504025901363411
+
 
 
 
@@ -34,13 +113,102 @@ Percentage: 32.062132490398014
 
 
 
-Confusion Metrix: 
-array([[108,   0,   1,   0,   4],
-       [  1,  76,   1,   0,   1],
-       [  0,   0,  79,   0,   0],
-       [  0,   0,   0, 104,   0],
-       [  0,   1,   1,   0,  68]], dtype=int64)
-Accuracy score:
+	***
+
+Confusion Matrix: 
+array([[90,  0,  2,  0,  1],
+       [ 1, 72,  2,  0,  2],
+       [ 1,  1, 82,  0,  0],
+       [ 0,  0,  0, 98,  0],
+       [ 0,  0,  0,  0, 93]], dtype=int64)
+	***
+
+
+
+
+	***
+               precision    recall  f1-score   support
+
+     business       0.98      0.97      0.97        93
+entertainment       0.99      0.94      0.96        77
+     politics       0.95      0.98      0.96        84
+        sport       1.00      1.00      1.00        98
+         tech       0.97      1.00      0.98        93
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.9775280898876404
+Macro F1 average: 0.9763611678905797
+Weighted F1 average: 0.9774507643324564
+
+
+	***
+
+
+Prior probabilities Try 2: 
+Total num of doc in training set: 1780.0
+num of business doc: 417.0 ,Percentage: 23.426966292134832
+num of entertainment doc: 309.0 ,Percentage: 17.359550561797754
+num of politics doc: 333.0 ,Percentage: 18.707865168539325
+num of sport doc: 413.0 ,Percentage: 23.202247191011235
+num of tech doc: 308.0 ,Percentage: 17.303370786516854
+
+	***
+
+Size of the vocabulary:
+29421
+
+	***
+
+
+g)Number of word-tokens in each class 
+
+ num of word token in business: 134897.0
+ num of word token in entertainment: 98352.0
+ num of word token in politics: 144559.0
+ num of word token in sport: 133087.0
+ num of word token in tech: 152889.0
+	***
+
+
+h)Number of word-tokens in the entire corpus 
+
+Total num of word token : 663784.0
+	***
+
+
+Words with a frequency of zero in each class (part7i)
+Num of Total unique words in training set 29421
+ num of Z in business: 18578 ,Percentage: 63.14537235308113
+ num of Z in entertainment: 19041 ,Percentage: 64.71907820944224
+ num of Z in politics: 19313 ,Percentage: 65.6435879133952
+ num of Z in sport: 19799 ,Percentage: 67.29546922266408
+ num of Z in tech: 18566 ,Percentage: 63.104585160259674
+	***
+
+
+Words with a frequency of one in the entire corpus (part7j)
+number of words with a frequency of one in the entire corpus: 9547
+Percentage: 32.44961082220183
+	***
+k) Your 2 favorite words (that are present in the vocabulary) and their log-prob
+Log probability of company in each class in the following order: business, entertainment, politics, sports, tech 
+-6.168917196341985
+-7.750677345767323
+-9.35864542795932
+-9.600587237510995
+-7.253651409435839
+
+Log probability of intelligence in each class in the following order: business, entertainment, politics, sports, tech 
+-11.316411673155438
+-10.659398242331685
+-8.931201413132381
+-11.998482510309366
+-10.504025901363411
 
 
 
@@ -51,12 +219,103 @@ Accuracy score:
 
 
 
-Confusion Metrix: 
-array([[108,   0,   0,   0,   5],
-       [  0,  75,   1,   0,   3],
-       [  0,   0,  79,   0,   0],
-       [  0,   0,   0, 104,   0],
-       [  2,   1,   0,   0,  67]], dtype=int64)
+	***
+
+Confusion Matrix: 
+array([[90,  0,  2,  0,  1],
+       [ 2, 72,  2,  0,  1],
+       [ 1,  0, 83,  0,  0],
+       [ 0,  0,  0, 98,  0],
+       [ 1,  0,  0,  0, 92]], dtype=int64)
+	***
+
+
+
+               precision    recall  f1-score   support
+
+     business       0.96      0.97      0.96        93
+entertainment       1.00      0.94      0.97        77
+     politics       0.95      0.99      0.97        84
+        sport       1.00      1.00      1.00        98
+         tech       0.98      0.99      0.98        93
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+	***
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.9775280898876404
+Macro F1 average: 0.9767454502218772
+Weighted F1 average: 0.9774982134822192
+
+
+	***
+
+
+Prior probabilities Try 2: 
+Total num of doc in training set: 1780.0
+num of business doc: 417.0 ,Percentage: 23.426966292134832
+num of entertainment doc: 309.0 ,Percentage: 17.359550561797754
+num of politics doc: 333.0 ,Percentage: 18.707865168539325
+num of sport doc: 413.0 ,Percentage: 23.202247191011235
+num of tech doc: 308.0 ,Percentage: 17.303370786516854
+
+	***
+
+Size of the vocabulary:
+29421
+
+	***
+
+
+g)Number of word-tokens in each class 
+
+ num of word token in business: 134897.0
+ num of word token in entertainment: 98352.0
+ num of word token in politics: 144559.0
+ num of word token in sport: 133087.0
+ num of word token in tech: 152889.0
+	***
+
+
+h)Number of word-tokens in the entire corpus 
+
+Total num of word token : 663784.0
+	***
+
+
+Words with a frequency of zero in each class (part7i)
+Num of Total unique words in training set 29421
+ num of Z in business: 18578 ,Percentage: 63.14537235308113
+ num of Z in entertainment: 19041 ,Percentage: 64.71907820944224
+ num of Z in politics: 19313 ,Percentage: 65.6435879133952
+ num of Z in sport: 19799 ,Percentage: 67.29546922266408
+ num of Z in tech: 18566 ,Percentage: 63.104585160259674
+	***
+
+
+Words with a frequency of one in the entire corpus (part7j)
+number of words with a frequency of one in the entire corpus: 9547
+Percentage: 32.44961082220183
+	***
+k) Your 2 favorite words (that are present in the vocabulary) and their log-prob
+Log probability of company in each class in the following order: business, entertainment, politics, sports, tech 
+-5.974557874277848
+-7.507352174267395
+-9.242398887289019
+-9.496185342092506
+-7.085455644901309
+
+Log probability of intelligence in each class in the following order: business, entertainment, politics, sports, tech 
+-11.812188617988602
+-10.80314089337182
+-8.79041636093338
+-21.009120807012735
+-10.551167329263226
+
 
 
 
@@ -66,9 +325,98 @@ array([[108,   0,   0,   0,   5],
 
 
 
-Confusion Metrix: 
-array([[108,   0,   1,   0,   4],
-       [  1,  76,   2,   0,   0],
-       [  0,   0,  79,   0,   0],
-       [  0,   0,   0, 104,   0],
-       [  0,   1,   1,   0,  68]], dtype=int64)
+	***
+
+Confusion Matrix: 
+array([[90,  0,  2,  0,  1],
+       [ 1, 72,  2,  0,  2],
+       [ 1,  1, 82,  0,  0],
+       [ 0,  0,  0, 98,  0],
+       [ 0,  0,  0,  0, 93]], dtype=int64)
+
+
+
+	***
+               precision    recall  f1-score   support
+
+     business       0.98      0.97      0.97        93
+entertainment       0.99      0.94      0.96        77
+     politics       0.95      0.98      0.96        84
+        sport       1.00      1.00      1.00        98
+         tech       0.97      1.00      0.98        93
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+	***
+
+Accuracy, macro-average F1 and weighted-average F1:
+Accuracy score: 0.9775280898876404
+Macro F1 average: 0.9763611678905797
+Weighted F1 average: 0.9774507643324564
+
+
+	***
+
+
+Prior probabilities Try 2: 
+Total num of doc in training set: 1780.0
+num of business doc: 417.0 ,Percentage: 23.426966292134832
+num of entertainment doc: 309.0 ,Percentage: 17.359550561797754
+num of politics doc: 333.0 ,Percentage: 18.707865168539325
+num of sport doc: 413.0 ,Percentage: 23.202247191011235
+num of tech doc: 308.0 ,Percentage: 17.303370786516854
+
+	***
+
+Size of the vocabulary:
+29421
+
+	***
+
+
+g)Number of word-tokens in each class 
+
+ num of word token in business: 134897.0
+ num of word token in entertainment: 98352.0
+ num of word token in politics: 144559.0
+ num of word token in sport: 133087.0
+ num of word token in tech: 152889.0
+	***
+
+
+h) Number of word-tokens in the entire corpus 
+836357
+	**********************************
+
+
+i) Words with a frequency of zero in each class (part7i)
+Num of Total unique words in training set 29421
+ num of Z in business: 18578 ,Percentage: 63.14537235308113
+ num of Z in entertainment: 19041 ,Percentage: 64.71907820944224
+ num of Z in politics: 19313 ,Percentage: 65.6435879133952
+ num of Z in sport: 19799 ,Percentage: 67.29546922266408
+ num of Z in tech: 18566 ,Percentage: 63.104585160259674
+	***
+
+
+h)Number of word-tokens in the entire corpus 
+
+Total num of word token : 663784.0
+	***
+k) Your 2 favorite words (that are present in the vocabulary) and their log-prob
+Log probability of company in each class in the following order: business, entertainment, politics, sports, tech 
+-6.151140787767208
+-7.729201951908958
+-9.34827923540234
+-9.59144949278651
+-7.238157372885964
+
+Log probability of intelligence in each class in the following order: business, entertainment, politics, sports, tech 
+-11.349637819033033
+-10.670004563432014
+-8.918503537793558
+-12.085572797679434
+-10.507959077714524
