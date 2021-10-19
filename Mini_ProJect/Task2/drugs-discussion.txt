@@ -1,0 +1,9 @@
+With the data that we currently have, we have multiple specific models that have relatively the same performance with varying degrees.
+The Gaussian Naïve Bayes has the highest average across all 3 sets. The Decision Tree and the Top Decision Tree have identical values across its average. 
+The Perceptron, Multi-Layered Perceptron and Top Multi-Layered Perceptron had all different values, they did not have similarities.
+The standard deviation for the accuracy, macro-average and weighted-average are 0 for NB, Base-DT, Top-DT, and PER. 
+This indicates that their mean is the same during every iteration, thus reaching the same result. 
+This clearly changes with the Multi-Layered Perceptron and the Top Multi-Layered Perceptron. These two models utilize hidden layers. 
+The whole process will thus change with each iteration as the weights that is applied to the inputs varies. 
+Therefore, the average accuracy, average macro-average F1, and average weighted-average F1 will be different.
+The standard deviation for both of these models will thus vary.
