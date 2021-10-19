@@ -1,6 +1,0 @@
-With the data that we currently have, we have multiple specific models that have the same performance. 
-The Gaussian Naïve Bayes, the Decision Tree, the Top Decision Tree, and the Perceptron did not respectively vary in their data. 
-Since their standard deviation for the accuracy, macro-average and weighted-average are 0, this indicates that their mean is the same during every iteration, thus reaching the same result. 
-This clearly changes with the Multi-Layered Perceptron and the Top Multi-Layered Perceptron. These two models utilize hidden layers. 
-The whole process will thus change with each iteration as the weights that is applied to the inputs varies. 
-Therefore, the average accuracy, average macro-average F1, and average weighted-average F1 will be different.
